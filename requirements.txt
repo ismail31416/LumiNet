@@ -1,0 +1,14 @@
+tensorboard-logger==0.1.0
+yacs
+wandb
+tqdm
+tensorboardX
+mmcv==1.3.15
+numpy
+Pillow
+randaugment
+torch==1.9.0
+torchvision==0.10.0
+yacs
+wandb
+tqdm
