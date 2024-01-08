@@ -1,7 +1,7 @@
 The code is built on [mdistiller]([https://github.com/megvii-research/mdistiller/releases/tag/checkpoints](https://github.com/megvii-research/mdistiller/tree/master))
 # LumiNet: The Bright Side of Perceptual Knowledge Distillation
 
-##Framework & Performance
+## Framework & Performance
 ![image](https://github.com/ismail31416/LumiNet/assets/87028897/c3c0c715-1daf-4af2-a300-3b6429ede0b4)
 
 ### CIFAR-100 Benchmark Results ( Same Architecture ):
