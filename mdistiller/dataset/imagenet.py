@@ -5,7 +5,7 @@ from torchvision.datasets import ImageFolder
 import torchvision.transforms as transforms
 
 
-data_folder =  '/shafinSSD/Projects/ismail/COLT/data/imagenet'
+data_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../../data/imagenet')
 
 
 class ImageNet(ImageFolder):
@@ -96,7 +96,7 @@ def get_imagenet_dataloaders(batch_size, val_batch_size, num_workers,
     train_set = ImageNet(train_folder, transform=train_transform)
     num_data = len(train_set)
     train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, 
-        shuffle=True, num_workers=16, pin_memory=True)
+        shuffle=True, num_workers=num_workers, pin_memory=True)
     test_loader = get_imagenet_val_loader(val_batch_size, mean, std)
     return train_loader, test_loader, num_data
 
@@ -107,7 +107,7 @@ def get_imagenet_dataloaders_sample(batch_size, val_batch_size, num_workers, k=4
     train_set = ImageNetInstanceSample(train_folder, transform=train_transform, is_sample=True, k=k)
     num_data = len(train_set)
     train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch_size, 
-        shuffle=True, num_workers=16, pin_memory=True)
+        shuffle=True, num_workers=num_workers, pin_memory=True)
     test_loader = get_imagenet_val_loader(val_batch_size, mean, std)
     return train_loader, test_loader, num_data
 
