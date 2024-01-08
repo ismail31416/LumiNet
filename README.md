@@ -71,10 +71,10 @@ sudo python3 setup.py develop
 
   ```bash
   # for instance, our LumiNet method.
-  python3 tools/train.py --cfg configs/cifar100/Luminet/res32x4_res8x4.yaml
+  python3 tools/train.py --cfg configs/cifar100/luminet/res32x4_res8x4.yaml
 
   # you can also change settings at command line
-  python3 tools/train.py --cfg configs/cifar100/Luminet/res32x4_res8x4.yaml SOLVER.BATCH_SIZE 128 SOLVER.LR 0.1
+  python3 tools/train.py --cfg configs/cifar100/luminet/res32x4_res8x4.yaml SOLVER.BATCH_SIZE 128 SOLVER.LR 0.1
   ```
 
 ### 4. Training on ImageNet (This part will be released soon)
