@@ -1,6 +1,6 @@
 The code is built on [mdistiller]([https://github.com/megvii-research/mdistiller/releases/tag/checkpoints](https://github.com/megvii-research/mdistiller/tree/master))
 # LumiNet: The Bright Side of Perceptual Knowledge Distillation
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/luminet-the-bright-side-of-perceptual/classification-on-cifar-100)](https://paperswithcode.com/sota/classification-on-cifar-100?p=luminet-the-bright-side-of-perceptual)
 ## Framework & Performance
 ![image](https://github.com/ismail31416/LumiNet/assets/87028897/c3c0c715-1daf-4af2-a300-3b6429ede0b4)
 
