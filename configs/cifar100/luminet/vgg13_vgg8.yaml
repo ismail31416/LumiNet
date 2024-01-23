@@ -1,0 +1,21 @@
+EXPERIMENT:
+  NAME: ""
+  TAG: "luminet,vgg13,vgg8"
+  PROJECT: "cifar100_baselines"
+DISTILLER:
+  TYPE: "LUMINET"
+  TEACHER: "vgg13"
+  STUDENT: "vgg8"
+SOLVER:
+  ALPHA: 11.00
+  T: 2.0
+  CE_WEIGHT: 1.3
+  BATCH_SIZE: 64
+  EPOCHS: 240
+  LR: 0.05
+  LR_DECAY_STAGES: [150, 180, 210]
+  LR_DECAY_RATE: 0.1
+  WEIGHT_DECAY: 0.0005
+  MOMENTUM: 0.9
+  TYPE: "SGD"
+
