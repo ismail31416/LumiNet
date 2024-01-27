@@ -14,7 +14,7 @@ The code is built on [mdistiller]([https://github.com/megvii-research/mdistiller
 
 ### CIFAR-100 Benchmark Results (Heterogeneous architecture):
 
-| Teacher <br> Student |ResNet32x4 <br> ShuffleNet-V1|WRN-40-2 <br> ShuffleNet-V1| VGG13 <br> MobileNet-V2| ResNet50 <br> MobileNet-V2| ResNet32x4 <br> MobileNet-V2|
+| Teacher <br> Student |ResNet32x4 <br> ShuffleNet-V1|WRN-40-2 <br> ShuffleNet-V1| VGG13 <br> MobileNet-V2| ResNet50 <br> MobileNet-V2| ResNet32x4 <br> ShuffleNet-V2|
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:------------------:|
 | KD | 74.07 | 74.83 | 67.37 | 67.35 | 74.45 |
 | **LumiNet** | **76.66** | **76.95** | **70.50** | **70.97** | **77.55** |
