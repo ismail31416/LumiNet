@@ -3,13 +3,13 @@ EXPERIMENT:
   TAG: "luminet,wrn_40_2,shuv1"
   PROJECT: "cifar100_baselines"
 DISTILLER:
-  TYPE: "DKD"
+  TYPE: "LUMINET"
   TEACHER: "wrn_40_2"
   STUDENT: "ShuffleV1"
 SOLVER:
   ALPHA: 35.00
   T: 4.0
-  CE_WEIGHT: 2.0
+  CE_WEIGHT: 1.0
   BATCH_SIZE: 64
   EPOCHS: 240
   LR: 0.01
