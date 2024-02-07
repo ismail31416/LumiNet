@@ -78,13 +78,13 @@ sudo python3 setup.py develop
   python3 tools/train.py --cfg configs/cifar100/luminet/res32x4_res8x4.yaml SOLVER.BATCH_SIZE 128 SOLVER.LR 0.1
   ```
 
-### 4. Training on ImageNet (This part will be released soon)
+### 4. Training on ImageNet
 
 - Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
 
   ```bash
   # for instance, our LumiNet method.
-  python3 tools/train.py --cfg configs/imagenet/r34_r18/Luminet.yaml
+  python3 tools/train.py --cfg configs/imagenet/r34_r18/luminet.yaml
   ```
 
 ### 5. Training on MS-COCO ( This part will be released soon)
