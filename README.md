@@ -25,7 +25,7 @@ On ImageNet:
 | Teacher <br> Student |ResNet34 <br> ResNet18|ResNet50 <br> MobileNet-V1|
 |:---------------:|:-----------------:|:-----------------:|
 | KD | 71.03 | 70.50 | 
-| **LumiNet** | **71.78** | **-** |
+| **LumiNet** | **71.89** | **72.55** |
 
 ### Installation
 
