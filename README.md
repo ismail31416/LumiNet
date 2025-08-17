@@ -100,12 +100,15 @@ sudo python3 setup.py develop
 
 If this repo is helpful for your research, please consider citing the paper:
 
-```BibTeX
-@article{hossain2023luminet,
-  title={LumiNet: The Bright Side of Perceptual Knowledge Distillation},
-  author={Hossain, Md Ismail and Elahi, MM and Ramasinghe, Sameera and Cheraghian, Ali and Rahman, Fuad and Mohammed, Nabeel and Rahman, Shafin},
-  journal={arXiv preprint arXiv:2310.03669},
-  year={2023}
+```@article{
+hossain2025luminet,
+title={LumiNet: Perception-Driven Knowledge Distillation via Statistical Logit Calibration},
+author={Md. Ismail Hossain and M M Lutfe Elahi and Sameera Ramasinghe and Ali Cheraghian and Fuad Rahman and Nabeel Mohammed and Shafin Rahman},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=3rU1lp9w2l},
+note={}
 }
 ```
 
